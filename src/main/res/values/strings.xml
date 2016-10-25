@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="app_name">Article</string>
+    <string name="LoginTitle">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_article">Article</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_HTSC">HTSC</string>
+    <string name="title_activity_htsclogin">HTSCLoginActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_hq">HQActivity</string>
+    <string name="action_hq_add">Add</string>
+    <string name="code">代码</string>
+    <string name="name">名字</string>
+    <string name="open">开盘</string>
+    <string name="close">收盘</string>
+    <string name="netamount">净买</string>
+    <string name="buyamount">买入</string>
+    <string name="gain">盈亏</string>
+    <string name="currentShare">流通</string>
+    <string name="EaringPerShare">EPS</string>
+    <string name="sellamount">卖出</string>
+    <string name="rate">涨幅</string>
+    <string name="high">最高</string>
+    <string name="low">最低</string>
+    <string name="type">类型</string>
+    <string name="title_activity_long_hu">LongHuActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="date">时间</string>
+    <string name="avgcost">均价</string>
+    <string name="buycount">次数</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_longhu_view">LonghuView</string>
+    <string name="Chart">Chart</string>
+    <string name="title_activity_chart2">Chart2Activity</string>
+    <string name="title_activity_main_com">MainComActivity</string>
+    <string name="title_activity_sync">SyncActivity</string>
+    <string name="title_fastactivity_list">Items</string>
+    <string name="title_fastactivity_detail">FastActivity Detail</string>
+    <string name="title_activity_fast">FastActivity</string>
+    <string name="wyHq_body"><![CDATA[{"page":0,"count":2,"order":"desc","total":2925,"pagecount":1463,"time":"2016-09-10 15:45:29","list":[{"CODE":"1000413","DERC_EQRETURN":{"W26RETURN":94.613922,"W52IRANK":53,"YTDIRANK":4,"W26IRANK":5,"W4RETURN":-0.209892,"W13RETURN":73.600984,"W13IRANK":2,"W1IRANK":234,"W52RETURN":82.06669,"YTDRETURN":58.605768,"W1RETURN":-4.420729,"W4IRANK":181},"FINANCIALRATIOS":{"FINANCIALRATIOS44":-0.0655,"FINANCIALRATIOS43":3.5598},"HIGH":15.7,"LOW":14.53,"MCAP":37080589050,"MFRATIO":{"REPORTDATE":"2016-06-30","MFRATIO21":null,"MFRATIO22":3.79,"MFRATIO29":0.14,"MFRATIO28":0.14,"MFRATIO18":null,"MFRATIO14":0.142363,"MFRATIO2":545963710.72,"MFRATIO10":2882059154.41,"MFRATIO13":14568550417.6},"OPEN":14.68,"PE":33.45652173913,"PERCENT":0.078486,"PRICE":15.39,"SNAME":"\u4e1c\u65ed\u5149\u7535","SYMBOL":"000413","TIME":"2016\/09\/09 15:02:39","TURNOVER":7637214730.22,"UPDOWN":1.12,"VOLUME":499716286,"YESTCLOSE":14.27,"NO":1},{"CODE":"0601216","DERC_EQRETURN":{"W26RETURN":40.553974,"W52IRANK":147,"YTDIRANK":100,"W26IRANK":38,"W4RETURN":26.288474,"W13RETURN":32.408562,"W13IRANK":15,"W1IRANK":26,"W52RETURN":-8.094264,"YTDRETURN":-14.194465,"W1RETURN":6.521726,"W4IRANK":9},"FINANCIALRATIOS":{"FINANCIALRATIOS44":60.5977,"FINANCIALRATIOS43":9.9074},"HIGH":5.29,"LOW":4.81,"MCAP":37306368000,"MFRATIO":{"REPORTDATE":"2016-06-30","MFRATIO21":null,"MFRATIO22":5.02,"MFRATIO29":0.149,"MFRATIO28":0.149,"MFRATIO18":null,"MFRATIO14":0.149044,"MFRATIO2":628819300.93,"MFRATIO10":2552262403.75,"MFRATIO13":12802233758.74},"OPEN":4.89,"PE":27.410617551463,"PERCENT":0.032653,"PRICE":5.06,"SNAME":"\u541b\u6b63\u96c6\u56e2","SYMBOL":"601216","TIME":"2016\/09\/09 15:01:55","TURNOVER":1384157948,"UPDOWN":0.16,"VOLUME":272771806,"YESTCLOSE":4.9,"NO":2}]}]]></string>
+
+    <string name="taogula_html">
+    </string>
+</resources>

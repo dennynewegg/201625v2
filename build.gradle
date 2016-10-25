@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+android {
+    signingConfigs {
+        config {
+            keyAlias 'keystore1'
+            keyPassword '123123'
+            storeFile file('KeyStore.jks')
+            storePassword '123123'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.dy45.articlereader"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            renderscriptDebuggable true
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile(name: 'viewpagerindicator-2.4.1', ext: 'aar')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile files('libs/htmlpareserlib.jar')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+    testCompile 'junit:junit:4.12'
+}

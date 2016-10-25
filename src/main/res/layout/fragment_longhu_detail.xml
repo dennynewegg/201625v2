@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:id="@+id/longhu_detail_date_container"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/longhu_detail_date_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            tools:text="2015-06-15"
+            android:padding="5dp"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+    <ListView
+        android:background="@android:color/white"
+        android:id="@+id/longhu_detail_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

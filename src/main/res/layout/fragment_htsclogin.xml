@@ -1,0 +1,75 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="20dp">
+    <ProgressBar
+        android:id="@+id/login_progress"
+        android:layout_gravity="center"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout  android:id="@+id/login_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/htsc_username"
+                android:layout_width="match_parent"
+                android:text="031000013620"
+                android:maxLines="1"
+                android:layout_height="wrap_content" />
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:maxLines="1"
+                android:text="123123"
+                android:id="@+id/htsc_password" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/htsc_validateCodeText"
+                    android:layout_width="fill_parent"
+                    android:maxLength="4"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:hint="Code"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/htsc_validateCodeImg"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/white"
+                    tools:src="@drawable/validateimage2"
+                    android:clickable="true"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/htsc_login"
+            android:text="@string/LoginTitle"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_width="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+</FrameLayout>
